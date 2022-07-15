@@ -34,5 +34,5 @@ setInterval(function(){
 counter++;
   ReactDOM.render(
   <SimpleCounter digitOne ={one} digitTwo={two} digitThree={three} digitFour={four}/>,
-  document.querySelector("root"));
+  document.querySelector("#app"));
 }, 1000);
